@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Permissions</string>
+    <string name="tiene_permisos_de_microfono">Tiene permisos de microfóno:</string>
+    <string name="SI">SI</string>
+    <string name="NO">NO</string>
+</resources>

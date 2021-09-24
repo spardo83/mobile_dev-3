@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Permissions</string>
+    <string name="SI">YES</string>
+    <string name="NO">NO</string>
+    <string name="tiene_permisos_de_microfono">Has microphone permission</string>
+</resources>

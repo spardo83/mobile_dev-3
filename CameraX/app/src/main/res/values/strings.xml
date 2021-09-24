@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">CameraX</string>
+    <string name="take_picture">Tomar foto</string>
+    <string name="smile_probability">Probabilidad de sonrisa</string>
+    <string name="right_eye_open_probability">Probabilidad de ojo derecho abierto</string>
+    <string name="left_eye_open_probability">Probabilidad de ojo izquierdo abierto</string>
+</resources>
