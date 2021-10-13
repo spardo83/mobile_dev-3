@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/maps"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:text="MAPS"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/direccion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toStartOf="@+id/maps"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/maps" />
+
+    <EditText
+        android:id="@+id/numero"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="@+id/direccion"
+        app:layout_constraintStart_toStartOf="@+id/direccion"
+        app:layout_constraintTop_toTopOf="@+id/llamar" />
+
+    <Button
+        android:id="@+id/llamar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="LLAMAR"
+        app:layout_constraintEnd_toEndOf="@+id/maps"
+        app:layout_constraintTop_toBottomOf="@+id/maps" />
+
+    <Button
+        android:id="@+id/enviar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="ENVIAR"
+        app:layout_constraintEnd_toEndOf="@+id/llamar"
+        app:layout_constraintStart_toStartOf="@+id/llamar"
+        app:layout_constraintTop_toBottomOf="@+id/llamar" />
+
+    <EditText
+        android:id="@+id/textPlano"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="@+id/numero"
+        app:layout_constraintStart_toStartOf="@+id/numero"
+        app:layout_constraintTop_toTopOf="@+id/enviar" />
+
+    <Button
+        android:id="@+id/servicio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="LANZAR SERVICIO"
+        app:layout_constraintEnd_toEndOf="@+id/textPlano"
+        app:layout_constraintStart_toStartOf="@+id/textPlano"
+        app:layout_constraintTop_toBottomOf="@+id/textPlano" />
+</androidx.constraintlayout.widget.ConstraintLayout>
